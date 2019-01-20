@@ -13,10 +13,10 @@ Fetch a raw readme.md from a public github repository.
 
 ### Install
 
+With Yarn
 - `yarn add @varandas/fetch-readme`
 
-OR
-
+With npm
 - `npm i --save @varandas/fetch-readme` 
 
 ### Usage
