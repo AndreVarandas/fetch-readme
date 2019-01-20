@@ -1,9 +1,13 @@
 {
   "name": "@varandas/fetch-readme",
   "version": "0.0.0-development",
+  "private": false,
   "description": "Fetch a raw readme file from any public Github repository",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/AndreVarandas/fetch-readme.git"
