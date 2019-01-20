@@ -8,7 +8,7 @@ Fetch a raw readme.md from a public github repository.
 [![Build Status](https://travis-ci.org/AndreVarandas/fetch-readme.svg?branch=master)](https://travis-ci.org/AndreVarandas/fetch-readme)
 [![Codecov Coverage](https://img.shields.io/codecov/c/github/AndreVarandas/fetch-readme/master.svg?style=flat-square)](https://codecov.io/gh/AndreVarandas/fetch-readme/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-![](https://badges.greenkeeper.io/andrevarandas/fetch-readme.svg?style=flat)
+![Green Keeper](https://badges.greenkeeper.io/andrevarandas/fetch-readme.svg?style=flat)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AndreVarandas/fetch-readme/blob/master/LICENSE)
 
 ### Install
