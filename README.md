@@ -22,7 +22,7 @@ With npm
 ### Usage
 
 ```javascript
-// Commonjs
+// Usage for commonjs
 const { fetchReadme } = require('@varandas/fetch-readme');
 
 fetchReadme({
