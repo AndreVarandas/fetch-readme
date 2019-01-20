@@ -74,6 +74,7 @@ function validateConfigurationObject(config: IFetchReadmeConfig) {
  */
 const fetchReadme = async (config: IFetchReadmeConfig) => {
   try {
+    // Check configuration before proceeding
     validateConfigurationObject(config)
     return await getGithubReadmeForRepository(config)
   } catch (error) {
