@@ -58,7 +58,7 @@ describe('Fetch Readme', () => {
     try {
       await fetchReadme(nonExistentReadmeConfiguration)
     } catch (error) {
-      expect(error).toMatch('404 - Unable to find a readme.md.s')
+      expect(error).toMatch('404 - Unable to find a readme.md.')
     }
   })
 

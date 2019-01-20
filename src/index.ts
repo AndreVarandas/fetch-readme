@@ -77,7 +77,7 @@ const fetchReadme = async (config: IFetchReadmeConfig) => {
     validateConfigurationObject(config)
     return await getGithubReadmeForRepository(config)
   } catch (error) {
-    return new Error(error)
+    throw error.message
   }
 }
 
