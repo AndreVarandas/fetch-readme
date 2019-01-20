@@ -1,0 +1,60 @@
+{
+  "name": "@varandas/fetch-readme",
+  "version": "0.0.0-development",
+  "description": "Fetch a raw readme file from any public Github repository",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreVarandas/fetch-readme.git"
+  },
+  "keywords": [
+    "github",
+    "readme"
+  ],
+  "bugs": {
+    "url": "https://github.com/AndreVarandas/fetch-readme/issues"
+  },
+  "homepage": "https://github.com/AndreVarandas/fetch-readme#readme",
+  "author": "André Varandas <andre.m.varandas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx git-cz",
+    "test": "jest --config jestconfig.json",
+    "build": "rimraf dist && tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "semantic-release": "^15.13.3",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "rimraf": "^2.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn format",
+      "pre-push": "yarn test"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
