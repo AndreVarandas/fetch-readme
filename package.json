@@ -43,7 +43,7 @@
     "typescript": "^3.2.4"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "rimraf": "^3.0.2"
   },
   "files": [
